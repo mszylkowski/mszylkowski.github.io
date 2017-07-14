@@ -1,11 +1,12 @@
-var square = 20;
+
+varvar square = 20;
 var lost = true;
 var gridSize = {x:0, y:0};
 var canvas;
 var frames = 5;
 var touchPos;
 var swiping = false;
-var startText = "(press arow keys or WASD to start)";;
+var startText = "(press arrow keys or WASD to start)";
 var highscore = 0;
 
 var snake;
@@ -30,7 +31,7 @@ function calculateGrid() {
   resizeCanvas(gridSize.x * square, gridSize.y * square);
   lost = true;
   if (windowWidth > 450) {
-    startText = "(press arow keys or WASD to start)";
+    startText = "(press arrow keys or WASD to start)";
   } else {
     startText = "(swipe to start)";
   }
