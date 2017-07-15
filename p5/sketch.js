@@ -1,5 +1,5 @@
 
-varvar square = 20;
+var square = 20;
 var lost = true;
 var gridSize = {x:0, y:0};
 var canvas;
