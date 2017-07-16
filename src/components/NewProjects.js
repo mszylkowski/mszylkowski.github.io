@@ -122,14 +122,6 @@ export default class NewProjects extends Component {
                 </div>
               </a>
             );})}
-
-
-
-
-
-
-
-
           </div>
         </div>
       </div>

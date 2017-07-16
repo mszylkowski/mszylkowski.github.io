@@ -17,8 +17,11 @@ import VisionQuest from './projects/VisionQuest';
 import YouWillCrash from './projects/YouWillCrash';
 
 export default class Main extends Component {
+  componentDidMount() {
+    img = new Image();
+		img.src = "./res/resume-sized.png";
+  }
   render () {
-    console.log(this);
     return (
       <div className="page-container">
         <div className="navbar animated fadeInDown">
