@@ -8,6 +8,8 @@ export default class Bio extends Component {
           <h1>About me</h1>
           <p>{"My name is Matias Szylkowski, born in Montevideo, Uruguay in 1997. I'm currently studying Computer Science in the Georgia Institute of Technology with specialization in Devices and Intelligence. Besides coding, I enjoy playing basketball (or any other sport), going to the gym, and learning songs on the piano."}</p>
           <p>As far as programming is concerned, developing games is what gained my interest from a very young age, but since then I have worked to refine my skills in Android development in Java as well. More recently, I have been exploring multiplatform frameworks and connecting apps to the internet to increase my capabilities that allowed for a wider range of possibilities. Not only do I like reading about new achievements in the software industry, but also about technology in general.</p>
+        </div>
+        <div className="container-center container-dark animated fadeIn">
           <h1>Education</h1>
           <h2>Georgia Institute of Technology</h2>
           <p>{"Currently I'm studying Computer Science in the Georgia Institute of Technology with expected graduation term fall 2019 and specialization in Devices and Intelligence. GPA: 4.0"}</p>
@@ -21,6 +23,8 @@ export default class Bio extends Component {
           <p>CS2110: Computing Organization and Programming (Fall 2017)</p>
           <h2>Escuela Integral</h2>
           <p>{"Graduated from Escuela Integral in December 2015 with an International Baccalaureate degree. Placed #1 in the class ranking out of 73 students."}</p>
+        </div>
+        <div className="container-center container-dark animated fadeIn">
           <h1>Awards</h1>
           <h2>Hackathons</h2>
           <p>To see all my hackathon projects visit my <a href="https://devpost.com/mszylkowski" target="_blank" >Devpost Portfolio</a></p>

@@ -108,7 +108,7 @@ export default class NewProjects extends Component {
         <div className="container-center container-dark">
           <span>Filters:</span>
           {this.filters.map((filter, i) => {return (
-            <a key={i} className={this.state.filter==filter?"button button-filters-active animated rubberBand":"button button-filters"} onTouchTap={()=>{this.filter(filter)}}>{filter}</a>
+            <a key={i} className={this.state.filter==filter?"button button-filters-active":"button button-filters"} onTouchTap={()=>{this.filter(filter)}}>{filter}</a>
           );})}
           <div className="projects">
             {this.state.filteredProjects.map((project, i) => {return (

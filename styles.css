@@ -437,3 +437,49 @@ a.button.button-filters-active {
 	color: #000000;
 	display: inline-block;
 }
+
+.icons {
+  color: black;
+  font-size: 5rem;
+}
+
+.skill-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-title h1 {
+  flex: 1;
+  display: inline;
+  flex-shrink: 0;
+}
+
+.skill-title div {
+  flex-shrink: 0;
+}
+
+.skill-title svg, .skill-title img {
+  height: 2rem;
+  margin: 5px 10px;
+  flex-shrink: 0;
+}
+
+@media (max-width:500px) {
+  .skill-title {
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+  }
+
+  .skill-title h1 {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .skill-title div {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+  }
+}

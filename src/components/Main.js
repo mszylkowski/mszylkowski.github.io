@@ -18,7 +18,7 @@ import YouWillCrash from './projects/YouWillCrash';
 
 export default class Main extends Component {
   componentDidMount() {
-    img = new Image();
+    var img = new Image();
 		img.src = "./res/resume-sized.png";
   }
   render () {
