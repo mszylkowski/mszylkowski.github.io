@@ -28,6 +28,10 @@ export default class Home extends Component {
               <Typing.Delay ms={3000} />
               <Typing.Backspace count={20} />
               <Typing.Reset/>
+              <span>a <strong>UI designer</strong>.</span>
+              <Typing.Delay ms={3000} />
+              <Typing.Backspace count={15} />
+              <Typing.Reset/>
               <span>a <strong>React developer</strong>.</span>
               <Typing.Delay ms={3000} />
               <Typing.Backspace count={18} />
